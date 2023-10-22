@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+
+    h3 {
+        font-size: 22px;
+        font-weight: 700;
+        
+        a {
+        color: $red;
+        text-decoration: none;
+        }
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+    }
+
+    nav > ul > li > a{
+        text-decoration: none;
+        font-size: 16px;
+        padding: 8px 18px;
+        font-weight: 400;
+        border-radius: 64px;
+        transition: 0.15s ease-in-out;
+        &:not(.signup){
+            color: $black;
+
+            &:hover{
+                background-color: #c8c8c8;
+            }
+        }
+    }
+
+    nav ul li{
+
+        a {
+            color: $white;
+        }
+
+        &:nth-last-child(2) {
+            background-color: $red;
+            padding: 7px 0;
+            border-radius: 64px;
+            transition: 0.15s ease-in-out;
+
+            &:hover{
+                background-color: #b0041e !important;
+            }
+        }
+    }
+
+}

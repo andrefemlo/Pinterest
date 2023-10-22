@@ -1,0 +1,11 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './animations.scss';
+@import './header.scss';
+@import './heading.scss';
+@import './grid.scss';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+
+body{
+    font-family: ubuntu, sans-serif;
+}
